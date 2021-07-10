@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController , UITableViewDelegate, UITableViewDataSource {
+    var  mario = "mario"
+    
     
     // APIのURL
     let url = URL(string: "https://5xqq8vderh.execute-api.ap-northeast-1.amazonaws.com/Prod/practice")!
